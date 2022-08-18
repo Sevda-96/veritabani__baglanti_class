@@ -16,7 +16,7 @@ class Connect{
                 $this->username,
                 $this->password);
             
-                $this->connect->query('USE db_name'); //tablo ismini belirtebiliriz.
+                $this->connect->query('USE db_name'); //veritabani ismini belirtebiliriz.
             
             if($this->connect){
               echo "Msql bağlantisi başarili.";
